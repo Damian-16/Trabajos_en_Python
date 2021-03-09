@@ -1,2 +1,2 @@
-# generador_de_password
-Es un generador  de Contraseñas aleatorias hecho en Python
+# Diferentes Trabajos hechos con Python
+desde un generador  de Contraseñas aleatorias hasta un juego de Adivinar el Número que Piensa la PC
