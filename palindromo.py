@@ -1,0 +1,26 @@
+def palindromo(palabra):
+# este codigo lo que hace es averiguar si una palabra ingresada es o no un palíndromo :)
+    palabra = palabra.replace(' ','')
+    
+    palabra = palabra.lower()
+    
+    palabra_invertida = palabra[::-1]
+  
+    if palabra == palabra_invertida:
+        return True
+    else:
+        return False
+
+
+
+def run():
+    palabra = input('Escribe una palabra : ')
+    es_palindromo = palindromo(palabra)
+    if es_palindromo == True:
+        print('Es palindromo')
+    else:
+        print('No es palindromo')
+
+
+if __name__ == '__main__':
+    run()
